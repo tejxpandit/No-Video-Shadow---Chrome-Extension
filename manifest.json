@@ -1,0 +1,19 @@
+{
+    "name": "No Drop Shadows",
+    "description" : "Remove inner shadows from video players",
+    "version": "1.0",
+    "manifest_version": 2,
+    
+    "icons" : {
+        "16": "/images/icon16.png",
+        "48": "/images/icon48.png",
+        "128": "/images/icon128.png"
+    },
+    "page_action": {
+        "default_icon" : {
+            "16": "/images/icon16_w.png",
+            "48": "/images/icon48_w.png",
+            "128": "/images/icon128_w.png"
+        }
+    }
+  }
