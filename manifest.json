@@ -15,5 +15,32 @@
             "48": "/images/icon48_w.png",
             "128": "/images/icon128_w.png"
         }
-    }
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://www.youtube.com/*"],
+            "css": ["fixYT.css"],
+            "run_at": "document_end"
+        },
+        {
+            "matches": ["https://www.hulu.com/*"],
+            "css": ["fixHULU.css"],
+            "run_at": "document_end"
+        },
+        {
+            "matches": ["https://www.amazon.com/*"],
+            "css": ["fixAMZN.css"],
+            "run_at": "document_end"
+        },
+        {
+            "matches": ["https://www.disneyplus.com/video/*"],
+            "css": ["fixDSNY.css"],
+            "run_at": "document_end"
+        },
+        {
+            "matches": ["https://*/*","http://*/*"],
+            "css": ["fixCHROME.css"],
+            "run_at": "document_end"
+        }
+    ]
   }
