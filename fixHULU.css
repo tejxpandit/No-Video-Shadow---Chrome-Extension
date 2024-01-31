@@ -1,0 +1,12 @@
+
+.ControlScrims .ControlScrim__top .ControlScrim__gradient {
+    opacity: 0 !important;
+}
+
+.ControlScrims .ControlScrim__bottom .ControlScrim__gradient {
+    opacity: 0 !important;
+}
+
+.FliptrayWrapper:before {
+    background: none !important;
+}
