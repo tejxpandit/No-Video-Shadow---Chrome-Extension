@@ -1,0 +1,8 @@
+
+.btm-media-player .btm-media-overlays-container .overlay__controls .controls__header:before .controls__footer:before {
+    background-image: none !important;
+}
+
+.btm-media-player.playback-experience-v2 .btm-media-overlays-container .overlay__controls .controls .controls__footer {
+    padding: 14px 20px 20px !important;
+}
