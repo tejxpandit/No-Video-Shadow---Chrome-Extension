@@ -1,0 +1,10 @@
+
+.ytp-gradient-top, .ytp-gradient-bottom {
+    background-image: none !important;
+}
+
+/*
+.ytp-big-mode .ytp-gradient-top, .ytp-big-mode .ytp-gradient-bottom {
+    background-image: none;
+}
+*/
